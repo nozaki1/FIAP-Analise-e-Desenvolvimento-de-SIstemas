@@ -1,0 +1,92 @@
+body{
+    background:
+           linear-gradient(
+             rgba(0, 0, 0, 0.7), 
+             rgba(0, 0, 0, 0.7)),
+           url(images/joshua-mayo-HASoyURgPMY-unsplash.jpg);
+           background-color: gray;
+}
+
+.wrapper{
+    font-family:'Sen',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.lembrar-entrar{
+  display:flex;
+  justify-content: space-between;
+  align-items:end;
+  margin-top: 20px;
+}
+
+header{
+  padding:15vh 5vw 10vh 5vw;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1{
+  color: rgb(255, 138, 0);
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 25px;
+}
+
+a{
+  color: rgb(255, 138, 0);}
+a:hover{
+  color: rgb(255, 138, 0);
+}
+
+.secao-cadastro{
+  font-weight: 500;
+  padding-left: 150px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.secao-cadastro a{
+  color: black;
+  font-weight: 500;
+  text-decoration: none ;
+}
+
+.textbox:focus {
+  box-shadow:0 0 10px rgb(255, 138, 0);
+}
+
+.button{
+  background-color: rgb(255, 138, 0);
+  border-radius: 500px;
+  border-color: transparent;
+  min-width: 130px;
+  height: 50px;
+  font-weight:500;
+  font-size: large;
+  letter-spacing: 3px;
+}
+
+.button:hover{
+  border-color:black ;
+}
+
+@media screen and (max-width:770px) {
+  header{
+    padding-bottom: 45px;
+  }
+  .secao-cadastro{
+    padding-left: 2px;
+    padding-top: 100px;
+  }
+  #slogan{
+    display: none;
+  }
+  #ENTRAR{
+    min-width:34vw;
+  }
+}
